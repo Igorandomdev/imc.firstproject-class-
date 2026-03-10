@@ -1,0 +1,77 @@
+/* 
+Arquivo de estilo do projeto 
+*/
+
+body {
+    background: #062050ad;
+    color: black;
+    font-family: sans-serif, Arial, Verdana;
+    display: flex; /* ativa o flexbox no body */
+    justify-content: center; /* centraliza horizontalmente */
+    align-items: center; /* centraliza verticalmente */
+    height: 100vh; /* define a altura como 100% do viewport-view height */
+}
+
+h2{
+    text-align: center;
+    color: #333333;
+    margin-bottom: 24px; /* margem externa abaixo */
+}
+
+label{
+    display: block; /* mostra um em cada linha - Bloco */
+    margin-top: 4px;
+    font-weight: bold; /* negrito */
+    font-size: 14px;
+}
+
+input{
+    width: 100%; /* ocupa 100% da largura disponivel */
+    padding: 8px; /* espaco interno */
+    margin-top: 4px;
+    border: 1px solid #CCCCCC; /* cria bordas */
+    border-radius: 8px; /* arredonda os cantos */
+}
+button{
+    width: 100%;
+    background: #007bff;
+    color: #ffffff;
+    padding: 16px;
+    border: none; /* nenhuma borda */
+    border-radius: 8px;
+    margin-top: 16px;
+    font-size: 16px;
+    cursor: pointer; /* cursor da maozinha */
+}
+button:hover{
+    background: #085ab1; /* hover e quando colocamos o mouse sobre */
+}
+/* Classe CSS (Comecam sempre por ponto final) */
+.limpar{
+    background: #e82e1e;
+}
+.limpar:hover{
+    background: #d62516;
+}
+.formulario{
+    background: #ffffff;
+    padding: 32px;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0,0,0,1); /* sombra */
+    width: 320px; /* largura maxima em pixel */
+}
+/* parametros do box shadow:
+ 0 - deslocamento horizontal
+ 8 - deslocamento vertical
+ 24 - blur - embaçamento. Quanto >, mais suave fica 
+ rgba - o a é de alpha ou transparência. é sempre 0 a 1 */
+
+ /* identificadores no CSS
+    São unicos e formatam pelo id. Utiliza-se # */
+#resultado{
+    margin-top: 24px;
+    padding: 16px;
+    background: #f8f9fa;
+    border-left: 4px solid #007bff; /* borda apenas na esquerda */
+    display: none; /* oculta no inicio */
+}
