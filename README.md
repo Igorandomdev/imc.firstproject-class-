@@ -1,4 +1,4 @@
-# Calculadora IMC
+# 🧮Calculadora IMC
 
 Projeto desenvolvido com **HTML, CSS e JavaScript** com o objetivo de elaborar uma calculadora que calcula o IMC.
 O projeto inclui CSS e manipulação de campos via JS
